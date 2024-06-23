@@ -1,0 +1,72 @@
+/* LoginPage.css */
+
+/* Import custom fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* Set background image and styles */
+body {
+  background: url("../../assets/login_background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: aqua;
+}
+
+.card-login {
+  /* Unique class name to avoid conflicts */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-login-header {
+  /* Use unique class name */
+  background-color: #007bff;
+  color: white;
+}
+
+.card-login-body {
+  /* Use unique class name */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.form-label-login {
+  /* Use unique class name */
+  font-weight: bold;
+  color: white; /* Steel Blue color */
+}
+
+.btn-primary-login {
+  /* Use unique class name */
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary-login:hover {
+  /* Use unique class name */
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary-login:focus {
+  /* Use unique class name */
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-link-login {
+  /* Use unique class name */
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-link-login:hover {
+  /* Use unique class name */
+  text-decoration: underline;
+}
+
+/* Apply Montserrat font to h2 */
+h2.login-heading {
+  /* Use unique class name */
+  font-family: "Montserrat", sans-serif;
+  color: #ff4500; /* Orange color */
+}
